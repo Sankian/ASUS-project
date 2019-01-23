@@ -1,6 +1,6 @@
 /* 主页全局样式 */
-body{font-family:'微软雅黑';text-align:center;margin:0 auto;padding:0;background:#FFF;font-size:14px;color:#333;}
-body > div{text-align:center;margin-right:auto;margin-left:auto;} 
+body{font-family:'微软雅黑';margin:0 auto;padding:0;background:#FFF;font-size:14px;color:#333;}
+body > div{margin-right:auto;margin-left:auto;} 
 div,form,ul,ol,li,span,p{margin:0;padding:0;border:0;}
 img,a img{border:0;margin:0;padding:0;}
 h1,h2,h3,h4,h5,h6{margin:0;padding:0;font-size:12px;font-weight:normal;}
@@ -21,7 +21,6 @@ a{outline-style:none;color:#333;text-decoration:none}
 body{
     width: 100%;
     height: 2000px;
-    background: #ccc;
     overflow-x: hidden;
 }
 
@@ -60,6 +59,7 @@ body{
     width: 120px;
     background: #4c4c4c;
     height:40px;
+    text-align: center;
 }
 .top-right p:last-child a{
     display: block;
@@ -159,23 +159,24 @@ body{
 .wrap-nav .nav .search button:hover i{
     color:#fff;
 }
-.wrap-nav .nav .search div:first-child a{
+
+.wrap-nav .nav .search div:first-child .search-Keyword{
+    position: absolute;
+    top:32px;
+    right: 45px;
+    display: flex;
+}
+.wrap-nav .nav .search div:first-child .search-Keyword a{
     height: 22px;
     padding: 0 10px;
     background: #ddd;
     font-size: 12px;
     line-height: 22px;
     border-radius: 5px;
-    position: absolute;
-    top:32px;
+    margin-left:8px; 
+    
 }
-.wrap-nav .nav .search div:first-child>a:nth-of-type(1){
-    left:170px;
-}
-.wrap-nav .nav .search div:first-child>a:nth-of-type(2){
-    left:250px;
-}
-.wrap-nav .nav .search div:first-child>a:hover{
+.wrap-nav .nav .search div:first-child .search-Keyword a:hover{
     background: #0af;
     color:#fff;
 }
@@ -285,3 +286,105 @@ body{
 }
 
 /* 轮播图及二级菜单 end */
+
+
+
+
+
+
+
+
+.content-wrap{
+    background: #fff;
+    width:100%;
+}
+
+.content-wrap .goodlist{
+    width: 1225px;
+    margin: 0 auto;
+}
+.content-wrap .goodlist .content-hender{
+    margin: 45px 0 12px 0;
+    display: flex;
+}
+.content-wrap .goodlist .content-hender i{
+    border-left:2px solid #00a8ff;
+    width:  14px;
+    height: 24px;
+    display: inline-block;
+    vertical-align: -4px;
+}
+.content-wrap .goodlist .content-hender h3{
+    width: 100%;
+    height: 40px;
+    font-size: 24px;
+    color:#555;
+    line-height: 40px;
+}
+.content-wrap .goodlist .content-hender div{
+    display: flex;
+}
+.content-wrap .goodlist .content-hender div span{
+    width: 30px;
+    height: 20px;
+    border: 1px solid #cdcdcd;
+    text-align: center;
+    font:700 16px/21px "宋体";
+    color: #bbb;
+}
+.content-wrap .goodlist .content-hender div span:first-child{
+    border-right:0; 
+    color: #eee
+}
+.goodlist .list-wrap .list{
+    height: 400px;
+    width: 100%;
+    display: flex;
+    box-sizing: border-box;
+    border: 1px solid #cdcdcd;
+    border-right: 0;
+}
+.goodlist .list-wrap .list li{
+    box-sizing: border-box;
+    width: 245px;
+    border-right: 1px solid #cdcdcd;   
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.goodlist .list-wrap .list li div{
+    width: 244px;
+    height: 244px;
+    padding-top:40px; 
+}
+.goodlist .list-wrap .list li div a{
+    height: 200px;
+    display: block;
+}
+.goodlist .list-wrap .list li a{
+    text-align: center;
+}
+.goodlist .list-wrap .list li div img{
+    height: 100%;
+}
+.goodlist .list-wrap .list li h4{
+    height: 22px;
+    font-size: 14px;
+    color: #444
+}
+.goodlist .list-wrap .list li p{
+    height: 36px;
+    font-size: 14px;
+    color:#999;
+}
+.goodlist .list-wrap .list li span{
+    height: 25px;
+    color:#f33;
+    font-size: 16px;
+}
+.goodlist .list-wrap .list li b{
+    color: #666;
+    font-size: 10px;
+    font-weight: normal;
+    text-decoration: line-through;
+}
