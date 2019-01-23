@@ -1,0 +1,287 @@
+/* 主页全局样式 */
+body{font-family:'微软雅黑';text-align:center;margin:0 auto;padding:0;background:#FFF;font-size:14px;color:#333;}
+body > div{text-align:center;margin-right:auto;margin-left:auto;} 
+div,form,ul,ol,li,span,p{margin:0;padding:0;border:0;}
+img,a img{border:0;margin:0;padding:0;}
+h1,h2,h3,h4,h5,h6{margin:0;padding:0;font-size:12px;font-weight:normal;}
+ul,ol,li{list-style:none}
+table,td,input{font-size:12px}
+.left{
+    float: left;
+}
+.right{
+    float: right;
+}
+/* 默认链接颜色 */
+a{outline-style:none;color:#333;text-decoration:none}
+
+
+/* 页面头部 */
+
+body{
+    width: 100%;
+    height: 2000px;
+    background: #ccc;
+    overflow-x: hidden;
+}
+
+
+.wrap-top{
+    width: 100%;
+    background: #404040;
+    /* height: 40px; */
+}
+
+.top{
+    width: 1225px;
+    margin: 0 auto;
+    display: flex;  
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.top a{
+    color:#b3b3b3;
+    font-size:14px;
+}
+.top .top-left a{
+    line-height: 40px;
+    margin: 0 10px;
+}
+.top-right{
+    line-height: 40px;
+}
+.top-right p{
+    float: left;
+    margin-left:30px; 
+    color:#b3b3b3;
+    white-space: nowrap;
+}
+.top-right p:last-child{
+    width: 120px;
+    background: #4c4c4c;
+    height:40px;
+}
+.top-right p:last-child a{
+    display: block;
+    width: 120px;
+    height:40px;
+}
+.top-right p:first-child a{
+    margin: 0 10px;
+}
+.top a:hover{
+    color:#fff;
+}
+.top-right p:last-child a:hover{
+    color:#b3b3b3;
+}
+
+/* 页面头部 end */
+
+
+/* 页面导航栏 */
+
+.wrap-nav{
+    width: 100%;
+    background: #fff;
+}
+.wrap-nav .nav{
+    width: 1225px;
+    /* height:100px; */
+    margin:0 auto;
+    overflow: hidden;
+    display: flex;
+    justify-content: space-between;
+}
+.wrap-nav .nav h1{
+    width: 150px;
+    height:60px;
+    margin-top:23px; 
+}
+.wrap-nav .nav ul{
+   display: flex;
+   margin-left:15px; 
+   margin-top:24px;
+   flex-wrap:wrap; 
+}
+.wrap-nav .nav ul>li{
+    margin-right: 40px;
+    line-height: 60px;
+}
+.wrap-nav .nav ul>li:hover a{
+    color:#0af;
+}
+
+/* 二级菜单区域 */
+
+
+/* 二级菜单end */
+
+.wrap-nav .nav .search{
+    width: 347px;
+    height: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+}
+.wrap-nav .nav .search div:first-child{
+    display: flex;
+    position: relative;
+}
+.wrap-nav .nav .search input{
+    box-sizing: border-box;
+    width:307px;
+    height:40px;
+    outline: none;
+    margin-top:24px;
+    font-size:14px; 
+    border: 1px solid #b3b3b3;
+    border-right:none; 
+    text-indent: 5px;
+}
+.wrap-nav .nav .search button{
+    width: 40px;
+    height:40px;
+    border: 1px solid #b3b3b3;
+    background: #fff;
+    margin-top:24px;
+    outline: none;
+    cursor: pointer;
+}
+.wrap-nav .nav .search button i{
+    color:#aaa;
+    font-size: 18px;
+}
+.wrap-nav .nav .search button:hover{
+    background: #0af;
+    border-color:#0af;
+}
+.wrap-nav .nav .search button:hover i{
+    color:#fff;
+}
+.wrap-nav .nav .search div:first-child a{
+    height: 22px;
+    padding: 0 10px;
+    background: #ddd;
+    font-size: 12px;
+    line-height: 22px;
+    border-radius: 5px;
+    position: absolute;
+    top:32px;
+}
+.wrap-nav .nav .search div:first-child>a:nth-of-type(1){
+    left:170px;
+}
+.wrap-nav .nav .search div:first-child>a:nth-of-type(2){
+    left:250px;
+}
+.wrap-nav .nav .search div:first-child>a:hover{
+    background: #0af;
+    color:#fff;
+}
+
+/* 页面导航栏 end */
+
+
+/* 轮播图及二级菜单 */
+
+.wrap-banner{
+    width: 100%;
+    height:500px;
+    position: relative;
+}
+.wrap-banner .banner{
+    width: 1920px;
+    height: 500px;
+    background: #333;
+    position: relative;
+    left:50%;
+    transform:translateX(-50%);
+    overflow: hidden;
+}
+.banner .swiper-pagination{
+    margin-left: 117px;
+}
+.banner .swiper-pagination .swiper-pagination-bullet{
+    width:10px;
+    height: 10px;
+    margin: 0 10px;
+    opacity: 1;
+    background: #fff;
+}
+.banner .swiper-pagination .swiper-pagination-bullet-active{
+    background: #0af;
+}
+.banner .swiper-container .swiper-button-prev{
+    padding: 0;
+    margin: 0;
+    width: 40px;
+    height: 100px;
+    position: absolute;
+    top:50%;
+    transform:translateY(-50%);
+    left:581px;
+    border-radius: 0 5px 5px 0;
+    background:rgba(0,0,0,0)
+}
+.banner .swiper-container .swiper-button-prev p{
+    width: 13px;
+    height: 100px;
+    background:url(../images/l_r.png) no-repeat 0 center;
+    position: absolute;
+    left:10px;
+}
+.banner .swiper-container .swiper-button-next{
+    padding: 0;
+    margin: 0;
+    width: 40px;
+    height: 100px;
+    position: absolute;
+    top:50%;
+    transform:translateY(-50%);
+    right:345px;
+    border-radius:5px 0 0 5px;
+    background:rgba(0,0,0,0)
+}
+.banner .swiper-container .swiper-button-next p{
+    width: 13px;
+    height: 100px;
+    background:url(../images/l_r.png) no-repeat -24px center;
+    position: absolute;
+    right:13px;
+}
+.banner .swiper-container .swiper-button-prev:hover{
+    background:rgba(0,0,0,.5)
+}
+.banner .swiper-container .swiper-button-next:hover{
+    background:rgba(0,0,0,.5)
+}
+
+
+
+.wrap-banner .banner .list{
+    width: 234px;
+    height: 500px;
+    background:rgba(0,0,0,.7);
+    position: absolute;
+    top:0;
+    left:347px;
+    z-index: 999;
+}
+.wrap-banner .banner .list a{
+    color: #fff;
+    float: left;
+    margin-left:16px; 
+}
+.wrap-banner .banner .list li{
+    width: 234px;
+    height: 40px;
+    margin:11.25px 0;
+    line-height: 40px;
+    float: left;
+}
+.wrap-banner .banner .list li:hover{
+    background: #00a8ff
+}
+
+/* 轮播图及二级菜单 end */
