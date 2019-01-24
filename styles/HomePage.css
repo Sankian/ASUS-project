@@ -133,7 +133,7 @@ body{
     width:307px;
     height:40px;
     outline: none;
-    margin-top:24px;
+    margin-top:23px;
     font-size:14px; 
     border: 1px solid #b3b3b3;
     border-right:none; 
@@ -144,7 +144,7 @@ body{
     height:40px;
     border: 1px solid #b3b3b3;
     background: #fff;
-    margin-top:24px;
+    margin-top:23px;
     outline: none;
     cursor: pointer;
 }
@@ -180,6 +180,12 @@ body{
     background: #0af;
     color:#fff;
 }
+.wrap-nav .nav .search .hot{
+    margin-bottom:7px; 
+}
+.wrap-nav .nav .search .hot a:hover{
+    color: #00a8ff;
+}
 
 /* 页面导航栏 end */
 
@@ -200,18 +206,23 @@ body{
     transform:translateX(-50%);
     overflow: hidden;
 }
-.banner .swiper-pagination{
+.wrap-banner .banner .swiper-pagination{
     margin-left: 117px;
 }
-.banner .swiper-pagination .swiper-pagination-bullet{
+.wrap-banner .banner .swiper-pagination .swiper-pagination-bullet{
     width:10px;
     height: 10px;
     margin: 0 10px;
     opacity: 1;
     background: #fff;
 }
-.banner .swiper-pagination .swiper-pagination-bullet-active{
+.wrap-banner .banner .swiper-pagination .swiper-pagination-bullet-active{
     background: #0af;
+}
+.banner .swiper-button-prev{
+    position: absolute;
+    top:200px;
+    left:700px;
 }
 .banner .swiper-container .swiper-button-prev{
     padding: 0;

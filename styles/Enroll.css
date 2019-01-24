@@ -1,0 +1,116 @@
+/* 全局样式 */
+body{font-family:'微软雅黑';margin:0 auto;padding:0;background:#FFF;font-size:14px;color:#333;}
+body > div{margin-right:auto;margin-left:auto;} 
+div,form,ul,ol,li,span,p{margin:0;padding:0;border:0;}
+img,a img{border:0;margin:0;padding:0;}
+h1,h2,h3,h4,h5,h6{margin:0;padding:0;font-size:12px;font-weight:normal;}
+ul,ol,li{list-style:none}
+table,td,input{font-size:12px}
+.left{
+    float: left;
+}
+.right{
+    float: right;
+}
+/* 默认链接颜色 */
+a{outline-style:none;color:#333;text-decoration:none}
+
+
+body{
+    background:#f2f2f2;
+}
+.wrap-box{
+    width: 270px;
+    height: 460px;
+    padding: 100px 179px 0 179px;
+    background:url(../images/min-log.png) no-repeat center top 36px #fff;
+    margin: 100px auto;
+    
+}
+.wrap-box input{
+    outline: none;
+}
+.wrap-box button{
+    cursor: pointer;
+}
+.wrap-box h2{
+    font-size: 26px;
+    text-align: center;
+    margin-bottom: 30px;
+    line-height: 43px;
+}
+.wrap-box .wrap-username{
+    margin-bottom:10px; 
+}
+.wrap-box .wrap-username input{
+    width: 100%;
+    height: 40px;
+    box-sizing: border-box;
+    border: 1px solid #ddd;
+    font-size: 14px;
+    text-indent: 4px;
+}
+.wrap-box .wrap-Code{
+    margin-bottom:10px; 
+    display: flex;
+    align-items: center;
+}
+.wrap-box .wrap-Code input{
+    width: 110px;
+    height: 40px;
+    box-sizing: border-box;
+    border: 1px solid #ddd;
+    font-size: 14px;
+    text-indent: 4px;
+} 
+.wrap-box input::placeholder {
+    color: #ccc;
+}
+.wrap-box .wrap-Code button{
+    width: 134px;
+    height: 38px;
+    box-sizing: border-box;
+    background: #1e9fff;
+    border: 0;
+    color: #fff;
+    border-radius:2px;
+    margin-left: 4px; 
+    font-size: 14px;
+}
+.wrap-box .wrap-Code button:hover{
+    background: #3fafff;
+}
+.wrap-box .btn button{
+    width: 100%;
+    height: 38px;
+    border: 0;
+    background: #00a8ff;
+    color: #fff;
+    letter-spacing: 15px;
+    text-align: center;
+    font-size: 14px;
+}
+.wrap-box .wrap-agreement{
+    font-size: 12px;
+    margin:16px 0 18px 0;
+    line-height: 12px;
+    display: flex;
+}
+.wrap-box .wrap-agreement input{
+    margin: 0 5px 0 0;
+}
+.wrap-box .wrap-agreement span{
+    display: inline-block;
+    height: 13px;
+    line-height: 13px;
+    color: #666;
+}
+.wrap-box .wrap-agreement span a{
+    color: #01f
+}
+.wrap-box p a{
+    color: #00a8ff;
+}
+.wrap-box .wrap-agreement span a:hover,.wrap-box p a:hover{
+    color: #666;
+}
