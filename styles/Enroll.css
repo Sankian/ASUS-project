@@ -32,6 +32,7 @@ body{
 }
 .wrap-box button{
     cursor: pointer;
+    outline: none;
 }
 .wrap-box h2{
     font-size: 26px;
@@ -46,7 +47,7 @@ body{
     width: 100%;
     height: 40px;
     box-sizing: border-box;
-    border: 1px solid #ddd;
+    border: 1px solid #ccc;
     font-size: 14px;
     text-indent: 4px;
 }
@@ -59,7 +60,7 @@ body{
     width: 110px;
     height: 40px;
     box-sizing: border-box;
-    border: 1px solid #ddd;
+    border: 1px solid #ccc;
     font-size: 14px;
     text-indent: 4px;
 } 
@@ -113,4 +114,10 @@ body{
 }
 .wrap-box .wrap-agreement span a:hover,.wrap-box p a:hover{
     color: #666;
+}
+.wrap-box input:hover{
+    border: 1px solid #aaa;
+}
+.wrap-box input:focus{
+    border: 1px solid #00a8ff;
 }

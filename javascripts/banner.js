@@ -28,14 +28,27 @@ $('.swiper-container .swiper-pagination')
 });
 
 // 鼠标滑入停止动画;
-$('.swiper-slide')
-.on("mouseenter",function(){
+$('.swiper-container')
+.on("mouseover",function(){
     mySwiper.autoplay.stop();
 })
 
 // 鼠标划出开始动画;
-$('.swiper-slide')
-.on("mouseleave",function(){
+$('.swiper-container')
+.on("mouseout ",function(){
     mySwiper.autoplay.start();
 })
 
+
+var mySwiper_list = new Swiper ('.list-wrap', {
+    // effect : 'fade',
+    speed:0,
+    slidesPerView: 5,
+    slidesPerGroup : 5,
+    
+    // 如果需要前进后退按钮
+    navigation: {
+        nextEl: '.swiper-button-right',
+        prevEl: '.swiper-button-left',
+    },
+})       
