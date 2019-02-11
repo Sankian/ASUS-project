@@ -77,12 +77,11 @@ a{outline-style:none;color:#333;text-decoration:none}
 .wrap-nav{
     width: 100%;
     background: #fff;
+    position: relative;
 }
 .wrap-nav .nav{
     width: 1225px;
-    /* height:100px; */
     margin:0 auto;
-    overflow: hidden;
     display: flex;
     justify-content: space-between;
 }
@@ -105,10 +104,52 @@ a{outline-style:none;color:#333;text-decoration:none}
     color:#0af;
 }
 
-/* 二级菜单区域 */
+/* 导航栏二级菜单区域 */
+.wrap-nav .Two-level-menu-wrap{
+    background: #fff;
+    width: 100%;
+    position: absolute;
+    z-index : 9999;
+    top:100px;
+}
+.wrap-nav .Two-level-menu-wrap>div{
+    display: none;
+    margin: 0 auto;
+    background: #fff;
+    width: 1226px;
+}
+.wrap-nav .Two-level-menu-wrap ul,ol{
+    display: flex;
+    flex-wrap:wrap; 
+    margin:0;
+}
+.wrap-nav .Two-level-menu-wrap div ul li {
+    margin: 0;
+}
+.wrap-nav .Two-level-menu-wrap div ul li a{
+    text-align: center;
+    display: block;
+    width: 175px;
+    height: 80px;
+    color: #666;
+}
+.Two-level-menu-tow ol li{
+    margin: 20px 17.2px 10px 0;
+}
+.Two-level-menu-tow ol li:last-child{
+    margin:20px 0 10px 0;
+}
+.wrap-nav .Two-level-menu-wrap:hover ul li{
+    opacity: 0.5;
+}
+.wrap-nav .Two-level-menu-wrap div ul li:hover{
+    opacity: 1;
+}
+.Two-level-menu-tow ol li a:hover{
+    color: #00a8ff;
+}
 
-
-/* 二级菜单end */
+/* 导航栏二级菜单end */
 
 .wrap-nav .nav .search{
     width: 347px;
@@ -178,6 +219,27 @@ a{outline-style:none;color:#333;text-decoration:none}
 }
 .wrap-nav .nav .search .hot a:hover{
     color: #00a8ff;
+}
+.wrap-nav .nav .search{
+    position: relative;
+
+}
+.wrap-nav .nav .search .lists{
+    padding: 10px 0;
+    border-radius:4px; 
+    background: #fff;
+    position: absolute;
+    z-index: 9999;
+    top:64px;
+    left:0;
+}
+.wrap-nav .nav .search .lists li{
+    width: 310px;
+    line-height: 30px;
+    text-indent: 12px;
+}
+.wrap-nav .nav .search .lists li:hover{
+    background: #ccc;
 }
 
 /* 页面导航栏 end */
@@ -349,13 +411,14 @@ a{outline-style:none;color:#333;text-decoration:none}
     border: 0;
     background: #fff;
 }
-.content-wrap .goodlist .content-hender div div span{
+.content-wrap .goodlist .content-hender div div a{
     display: block;
     width: 100%;
     height: 100%;
     text-align:center;
+    color:#aaa;
 }
-.content-wrap .goodlist .content-hender div .swiper-button-disabled{
+.content-wrap .goodlist .content-hender div .swiper-button-disabled a{
     opacity: 1;
     color:#ececec;
 }

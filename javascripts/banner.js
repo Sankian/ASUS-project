@@ -2,7 +2,7 @@ var mySwiper = new Swiper ('.swiper-container', {
     loop: true, // 循环模式选项
 
     speed:800,
-    
+    simulateTouch : false,
     // 如果需要分页器
     pagination: {
         el: '.swiper-pagination',
@@ -45,7 +45,7 @@ var mySwiper_list = new Swiper ('.list-wrap', {
     speed:0,
     slidesPerView: 5,
     slidesPerGroup : 5,
-    
+    simulateTouch : false,
     // 如果需要前进后退按钮
     navigation: {
         nextEl: '.swiper-button-right',

@@ -11,23 +11,82 @@
     <div class="wrap-content">
         <div class="top">
             <header>
-                <a href=""><img src="../images/log.png" alt=""></a>
+                <a href="http://127.0.0.1:5500/HomePage.html"><img src="../images/log.png" alt=""></a>
             </header>
         </div>
        
         <div class="box">
             <div class="content">
                 <img src="https://static.quyibao.com/b2c/image/20180720/13394650505148.jpg" alt="">
-                <div class="content-right">
-                </div>
                 <div class="content-list">
-                
+                    <div class="mode">
+                        <a class="Verification-code" href="javascript:;">验证码登录</a>
+                        <span>|</span>
+                        <a class="Account-number" href="javascript:;">账号登录</a>
+                    </div>    
+                    <div class="Verification">
+                        <input type="text" placeholder="手机号" autofocus="autofocus">
+                    </div> 
+                    <div class="Verification">
+                        <input type="text" placeholder="短信验证码">
+                        <div><a href="javascrput:;">获取验证码</a></div>
+                    </div>
+                    <div class="account">
+                        <input type="text" placeholder="用户名/邮箱/手机号">
+                    </div> 
+                    <div  class="account">
+                        <input type="password" placeholder="填写密码">
+                    </div> 
+                    <div>
+                        <button class="btn">立即登录</button>
+                    </div>
+                    <div class="enroll-mode">
+                        <p class="left"><a href="">企业用户注册</a></p>
+                        <p class="right">
+                            <a href="http://127.0.0.1:5500/page/Enroll.html">注册ASUS会员账号</a> |
+                            <a href="">忘记密码</a>
+                        </p>
+                    </div>
                     
-
+                    <div class="list-WeChat">
+                        <div class="WeChat-login">
+                            <p>您可以使用社交账号</p>
+                            <p>直接登录<a href=""> 华硕会员 </a>，无需注册</p>
+                        </div>
+                        <div class="Other-login"><p>其他方式登录</p></div>
+                        <span>
+                            <a href="">
+                                <img src="https://static.asus.com.cn/static/store/images/weixin.png" alt="">
+                            </a>
+                        </span>
+                    </div>
                 </div>
-            </div>
-            
+            </div>  
         </div>
     </div>
+    
+    <script src="https://cdn.bootcss.com/jquery/3.3.1/jquery.js"></script>
+    <script>
+        $(".Verification-code").on("click",function(){
+            console.log(1)
+            $(".Account-number").css("color","#666")
+            $(".Verification-code").css("color","#00a8ff")
+            $(".account").css("display","none")
+            $(".Verification").css("display","block")
+            $(".Other-login").css("display","none")
+            $(".WeChat-login").css("display","block")
+        })
+        $(".Account-number").on("click",function(){
+            console.log(2)
+            $(".Verification-code").css("color","#666")
+            $(".Account-number").css("color","#00a8ff")
+            $(".account").css("display","block")
+            $(".Verification").css("display","none")
+            $(".WeChat-login").css("display","none")
+            $(".Other-login").css("display","block")
+        })
+        $(".Verification-code").trigger("click");
+       
+    </script>
 </body>
 </html>
