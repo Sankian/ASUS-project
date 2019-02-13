@@ -66,63 +66,39 @@ $("body").on(
 
 
 // 导航栏二级菜单事件;
-
+var timer = null;
 for(var i=1;i<5;i++){
     $(".nav ul li").eq(i).on({
         mouseenter:function(){
             $(".Two-level-menu").show()
+            $(".Two-level-menu-wrap").css("box-shadow","0px 2px 1px 1px #ccc")
             $(".Two-level-menu ul").eq($(this).index()-1).show().siblings().hide();
         },
         mouseleave:function(){
             $(".Two-level-menu").hide()
+            $(".Two-level-menu-wrap").css("box-shadow","0px 0px 0px 0px #fff")
             $(".Two-level-menu ul").eq($(this).index()-1).hide()
         }
     })
     $(".Two-level-menu ul").on({
         mouseenter:function(){
             $(".Two-level-menu").show()
+            $(".Two-level-menu-wrap").css("box-shadow","0px 2px 1px 1px #ccc")
             $(this).show().siblings().hide();
         },
         mouseleave:function(){
             $(".Two-level-menu").hide()
+            $(".Two-level-menu-wrap").css("box-shadow","0px 0px 0px 0px #fff")
             $(".Two-level-menu ul").eq($(this).index()-1).hide()
         }
     })
 }
 $(".Two-level-menu ul").eq(1).on({
     mouseover:function(){
-        console.log(1)
-        $(".Two-level-menu ul").eq(1).children().css("opacity","1")
+        $(this).children().css("opacity","1")
     }
 })
-
-
 // 导航栏二级菜单事件end;
-
-// 侧边栏二级菜单事件;
-for(var i = 0 ;i<9;i++){
-    $(".list li").eq(i).on({
-        mouseenter:function(){
-            $(".list-Two-level-menu").show()
-            $(".list-Two-level-menu ul").eq($(this).index()).show()
-        },
-        mouseleave:function(){
-            $(".list-Two-level-menu").hide()
-            $(".list-Two-level-menu ul").eq($(this).index()).hide()
-        }
-    })
-    $(".list-Two-level-menu ul").on({
-        mouseenter:function(){
-            $(".list-Two-level-menu").show()
-            $(".list-Two-level-menu ul").eq($(this).index()).show()
-        },
-        mouseleave:function(){
-            $(".list-Two-level-menu").hide()
-            $(".list-Two-level-menu ul").eq($(this).index()).hide()
-        }
-    })
-}
-// 侧边栏二级菜单事件end;
 
 // 固定定位客服事件;
 $(".fixed-left-show").on({
@@ -134,29 +110,5 @@ $(".fixed-left-hide").on({
     mouseleave:function(){
         $(".fixed-left-hide").hide()
         $(".fixed-left-show").show()
-    }
-})
-
-// 爆款清单json 数据加载;
-$.ajax({
-    url:"../json/jia.json",
-    type : "get",
-    success : function(res){
-        // console.log(res)
-        var html="";
-        for(var i=0;i<res.list.length;i++){
-            html+=`<li class="swiper-slide" style="width: 244.8px;">
-                <div>
-                    <a href=""><img src="${res.list[i].img}" alt=""></a>
-                </div>
-                <a href="">
-                    <h4>${res.list[i].title}</h4>
-                    <p>${res.list[i].text}</p>
-                </a>
-                <span>${res.list[i].Price}</span>
-                <b>${res.list[i].ago}</b>
-            </li>`
-        }
-        $(".list-wrap ul")[0].innerHTML=html
     }
 })

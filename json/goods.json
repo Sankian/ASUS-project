@@ -1,0 +1,382 @@
+{
+    "lis":[
+        {
+            "img":"https://static.asus.com.cn/store/20180918/15075256101102.jpg",
+            "title":"【热销爆款】【不参与优惠活动】  ROG 游戏手机  - 128G 电竞装甲性能强劲游戏手机",
+            "Price":"￥5999",
+            "timer":"限时"
+        },
+        {
+            "img":"https://static.asus.com.cn/store/20180828/23002052529910.jpg",
+            "title":"ROG冰刃 15.6英寸 120Hz 25ms 防炫光雾面屏游戏笔记本电脑  官方标配（Windows 10 Home/i7-7700HQ/GeForce<sup>®</sup>  GTX 1070 搭载Max-Q设计/16G内存/512G/15.6英寸）",
+            "Price":"￥17999",
+            "timer":"限时"
+        },
+        {
+            "img":"https://static.asus.com.cn/store/20180828/23002052529910.jpg",
+            "title":"ROG冰刃 15.6英寸 120Hz 25ms 防炫光雾面屏游戏笔记本电脑  官方标配（Windows 10 Home/i7-7700HQ/GeForce<sup>®</sup>  GTX 1080 搭载Max-Q设计/16G内存/1TB/15.6英寸）",
+            "Price":"￥25999",
+            "timer":""
+        },
+        {
+            "img":"https://static.asus.com.cn/store/20180828/23474549101551.jpg",
+            "title":"【明星爆款】ROG超神2游戏本（Windows 10 home/i7-8750H/GeForce<sup>®</sup> GTX 1080 8G GDDR5X独显/32G内存/2*256GB PCI-E SSD+1TB SSHD/144Hz 雾面屏）",
+            "Price":"￥23999",
+            "timer":"限时"
+        },
+        {
+            "img":"https://static.asus.com.cn/store/20180828/23202456504849.jpg",
+            "title":"GFX72VS-玩家国度游戏本（Windows 10 Home/i7-7820HK/GeForce<sup>®</sup> GTX 1070 8G显存/16GB内存/512GB SSD+1T）",
+            "Price":"￥23999",
+            "timer":""
+        },
+        {
+            "img":"https://static.asus.com.cn/store/20180828/23143357981025.jpg",
+            "title":"【明星爆款】ROG冰刃2 15.6英寸 144Hz 3ms 防炫光雾面屏游戏笔记本电脑（Windows 10 home/ i7-8750H/8GB*2内存/ GeForce<sup>®</sup> GTX 1080 搭载Max-Q设计/512GB M.2 PCI-E/15.6",
+            "Price":"￥24999",
+            "timer":"限时"
+        },
+        {
+            "img":"https://static.asus.com.cn/store/20180828/23220499505610.jpg",
+            "title":"ROG魔霸2 15.6英寸 144Hz 3ms 防炫光窄边框游戏笔记本电脑（Windows 10 home/i7-8750H/Intel UHD Graphics 630+GeForce<sup>®</sup> GTX1060 6G /8G内存/256+1TB",
+            "Price":"￥9999",
+            "timer":"限时"
+        },
+        {
+            "img":"https://static.asus.com.cn/store/20180918/15075256101102.jpg",
+            "title":"【热销爆款】【不参与优惠活动】  ROG 游戏手机  - 128G 电竞装甲性能强劲游戏手机",
+            "Price":"￥5999",
+            "timer":"限时"
+        },
+        {
+            "img":"https://static.asus.com.cn/store/20180828/23002052529910.jpg",
+            "title":"ROG冰刃 15.6英寸 120Hz 25ms 防炫光雾面屏游戏笔记本电脑  官方标配（Windows 10 Home/i7-7700HQ/GeForce<sup>®</sup>  GTX 1070 搭载Max-Q设计/16G内存/512G/15.6英寸）",
+            "Price":"￥17999",
+            "timer":"限时"
+        },
+        {
+            "img":"https://static.asus.com.cn/store/20180828/23002052529910.jpg",
+            "title":"ROG冰刃 15.6英寸 120Hz 25ms 防炫光雾面屏游戏笔记本电脑  官方标配（Windows 10 Home/i7-7700HQ/GeForce<sup>®</sup>  GTX 1080 搭载Max-Q设计/16G内存/1TB/15.6英寸）",
+            "Price":"￥25999",
+            "timer":""
+        },
+        {
+            "img":"https://static.asus.com.cn/store/20180828/23474549101551.jpg",
+            "title":"【明星爆款】ROG超神2游戏本（Windows 10 home/i7-8750H/GeForce<sup>®</sup> GTX 1080 8G GDDR5X独显/32G内存/2*256GB PCI-E SSD+1TB SSHD/144Hz 雾面屏）",
+            "Price":"￥23999",
+            "timer":"限时"
+        },
+        {
+            "img":"https://static.asus.com.cn/store/20180828/23202456504849.jpg",
+            "title":"GFX72VS-玩家国度游戏本（Windows 10 Home/i7-7820HK/GeForce<sup>®</sup> GTX 1070 8G显存/16GB内存/512GB SSD+1T）",
+            "Price":"￥23999",
+            "timer":""
+        },
+        {
+            "img":"https://static.asus.com.cn/store/20180828/23143357981025.jpg",
+            "title":"【明星爆款】ROG冰刃2 15.6英寸 144Hz 3ms 防炫光雾面屏游戏笔记本电脑（Windows 10 home/ i7-8750H/8GB*2内存/ GeForce<sup>®</sup> GTX 1080 搭载Max-Q设计/512GB M.2 PCI-E/15.6",
+            "Price":"￥24999",
+            "timer":"限时"
+        },
+        {
+            "img":"https://static.asus.com.cn/store/20180828/23220499505610.jpg",
+            "title":"ROG魔霸2 15.6英寸 144Hz 3ms 防炫光窄边框游戏笔记本电脑（Windows 10 home/i7-8750H/Intel UHD Graphics 630+GeForce<sup>®</sup> GTX1060 6G /8G内存/256+1TB",
+            "Price":"￥9999",
+            "timer":"限时"
+        },
+        {
+            "img":"https://static.asus.com.cn/store/20180918/15075256101102.jpg",
+            "title":"【热销爆款】【不参与优惠活动】  ROG 游戏手机  - 128G 电竞装甲性能强劲游戏手机",
+            "Price":"￥5999",
+            "timer":"限时"
+        },
+        {
+            "img":"https://static.asus.com.cn/store/20180828/23002052529910.jpg",
+            "title":"ROG冰刃 15.6英寸 120Hz 25ms 防炫光雾面屏游戏笔记本电脑  官方标配（Windows 10 Home/i7-7700HQ/GeForce<sup>®</sup>  GTX 1070 搭载Max-Q设计/16G内存/512G/15.6英寸）",
+            "Price":"￥17999",
+            "timer":"限时"
+        },
+        {
+            "img":"https://static.asus.com.cn/store/20180828/23002052529910.jpg",
+            "title":"ROG冰刃 15.6英寸 120Hz 25ms 防炫光雾面屏游戏笔记本电脑  官方标配（Windows 10 Home/i7-7700HQ/GeForce<sup>®</sup>  GTX 1080 搭载Max-Q设计/16G内存/1TB/15.6英寸）",
+            "Price":"￥25999",
+            "timer":""
+        },
+        {
+            "img":"https://static.asus.com.cn/store/20180828/23474549101551.jpg",
+            "title":"【明星爆款】ROG超神2游戏本（Windows 10 home/i7-8750H/GeForce<sup>®</sup> GTX 1080 8G GDDR5X独显/32G内存/2*256GB PCI-E SSD+1TB SSHD/144Hz 雾面屏）",
+            "Price":"￥23999",
+            "timer":"限时"
+        },
+        {
+            "img":"https://static.asus.com.cn/store/20180828/23202456504849.jpg",
+            "title":"GFX72VS-玩家国度游戏本（Windows 10 Home/i7-7820HK/GeForce<sup>®</sup> GTX 1070 8G显存/16GB内存/512GB SSD+1T）",
+            "Price":"￥23999",
+            "timer":""
+        },
+        {
+            "img":"https://static.asus.com.cn/store/20180828/23143357981025.jpg",
+            "title":"【明星爆款】ROG冰刃2 15.6英寸 144Hz 3ms 防炫光雾面屏游戏笔记本电脑（Windows 10 home/ i7-8750H/8GB*2内存/ GeForce<sup>®</sup> GTX 1080 搭载Max-Q设计/512GB M.2 PCI-E/15.6",
+            "Price":"￥24999",
+            "timer":"限时"
+        },
+        {
+            "img":"https://static.asus.com.cn/store/20180828/23220499505610.jpg",
+            "title":"ROG魔霸2 15.6英寸 144Hz 3ms 防炫光窄边框游戏笔记本电脑（Windows 10 home/i7-8750H/Intel UHD Graphics 630+GeForce<sup>®</sup> GTX1060 6G /8G内存/256+1TB",
+            "Price":"￥9999",
+            "timer":"限时"
+        },
+        {
+            "img":"https://static.asus.com.cn/store/20180918/15075256101102.jpg",
+            "title":"【热销爆款】【不参与优惠活动】  ROG 游戏手机  - 128G 电竞装甲性能强劲游戏手机",
+            "Price":"￥5999",
+            "timer":"限时"
+        },
+        {
+            "img":"https://static.asus.com.cn/store/20180828/23002052529910.jpg",
+            "title":"ROG冰刃 15.6英寸 120Hz 25ms 防炫光雾面屏游戏笔记本电脑  官方标配（Windows 10 Home/i7-7700HQ/GeForce<sup>®</sup>  GTX 1070 搭载Max-Q设计/16G内存/512G/15.6英寸）",
+            "Price":"￥17999",
+            "timer":"限时"
+        },
+        {
+            "img":"https://static.asus.com.cn/store/20180828/23002052529910.jpg",
+            "title":"ROG冰刃 15.6英寸 120Hz 25ms 防炫光雾面屏游戏笔记本电脑  官方标配（Windows 10 Home/i7-7700HQ/GeForce<sup>®</sup>  GTX 1080 搭载Max-Q设计/16G内存/1TB/15.6英寸）",
+            "Price":"￥25999",
+            "timer":""
+        },
+        {
+            "img":"https://static.asus.com.cn/store/20180828/23474549101551.jpg",
+            "title":"【明星爆款】ROG超神2游戏本（Windows 10 home/i7-8750H/GeForce<sup>®</sup> GTX 1080 8G GDDR5X独显/32G内存/2*256GB PCI-E SSD+1TB SSHD/144Hz 雾面屏）",
+            "Price":"￥23999",
+            "timer":"限时"
+        },
+        {
+            "img":"https://static.asus.com.cn/store/20180828/23202456504849.jpg",
+            "title":"GFX72VS-玩家国度游戏本（Windows 10 Home/i7-7820HK/GeForce<sup>®</sup> GTX 1070 8G显存/16GB内存/512GB SSD+1T）",
+            "Price":"￥23999",
+            "timer":""
+        },
+        {
+            "img":"https://static.asus.com.cn/store/20180828/23143357981025.jpg",
+            "title":"【明星爆款】ROG冰刃2 15.6英寸 144Hz 3ms 防炫光雾面屏游戏笔记本电脑（Windows 10 home/ i7-8750H/8GB*2内存/ GeForce<sup>®</sup> GTX 1080 搭载Max-Q设计/512GB M.2 PCI-E/15.6",
+            "Price":"￥24999",
+            "timer":"限时"
+        },
+        {
+            "img":"https://static.asus.com.cn/store/20180828/23220499505610.jpg",
+            "title":"ROG魔霸2 15.6英寸 144Hz 3ms 防炫光窄边框游戏笔记本电脑（Windows 10 home/i7-8750H/Intel UHD Graphics 630+GeForce<sup>®</sup> GTX1060 6G /8G内存/256+1TB",
+            "Price":"￥9999",
+            "timer":"限时"
+        },
+        {
+            "img":"https://static.asus.com.cn/store/20180918/15075256101102.jpg",
+            "title":"【热销爆款】【不参与优惠活动】  ROG 游戏手机  - 128G 电竞装甲性能强劲游戏手机",
+            "Price":"￥5999",
+            "timer":"限时"
+        },
+        {
+            "img":"https://static.asus.com.cn/store/20180828/23002052529910.jpg",
+            "title":"ROG冰刃 15.6英寸 120Hz 25ms 防炫光雾面屏游戏笔记本电脑  官方标配（Windows 10 Home/i7-7700HQ/GeForce<sup>®</sup>  GTX 1070 搭载Max-Q设计/16G内存/512G/15.6英寸）",
+            "Price":"￥17999",
+            "timer":"限时"
+        },
+        {
+            "img":"https://static.asus.com.cn/store/20180828/23002052529910.jpg",
+            "title":"ROG冰刃 15.6英寸 120Hz 25ms 防炫光雾面屏游戏笔记本电脑  官方标配（Windows 10 Home/i7-7700HQ/GeForce<sup>®</sup>  GTX 1080 搭载Max-Q设计/16G内存/1TB/15.6英寸）",
+            "Price":"￥25999",
+            "timer":""
+        },
+        {
+            "img":"https://static.asus.com.cn/store/20180828/23474549101551.jpg",
+            "title":"【明星爆款】ROG超神2游戏本（Windows 10 home/i7-8750H/GeForce<sup>®</sup> GTX 1080 8G GDDR5X独显/32G内存/2*256GB PCI-E SSD+1TB SSHD/144Hz 雾面屏）",
+            "Price":"￥23999",
+            "timer":"限时"
+        },
+        {
+            "img":"https://static.asus.com.cn/store/20180828/23202456504849.jpg",
+            "title":"GFX72VS-玩家国度游戏本（Windows 10 Home/i7-7820HK/GeForce<sup>®</sup> GTX 1070 8G显存/16GB内存/512GB SSD+1T）",
+            "Price":"￥23999",
+            "timer":""
+        },
+        {
+            "img":"https://static.asus.com.cn/store/20180828/23143357981025.jpg",
+            "title":"【明星爆款】ROG冰刃2 15.6英寸 144Hz 3ms 防炫光雾面屏游戏笔记本电脑（Windows 10 home/ i7-8750H/8GB*2内存/ GeForce<sup>®</sup> GTX 1080 搭载Max-Q设计/512GB M.2 PCI-E/15.6",
+            "Price":"￥24999",
+            "timer":"限时"
+        },
+        {
+            "img":"https://static.asus.com.cn/store/20180828/23220499505610.jpg",
+            "title":"ROG魔霸2 15.6英寸 144Hz 3ms 防炫光窄边框游戏笔记本电脑（Windows 10 home/i7-8750H/Intel UHD Graphics 630+GeForce<sup>®</sup> GTX1060 6G /8G内存/256+1TB",
+            "Price":"￥9999",
+            "timer":"限时"
+        },
+        {
+            "img":"https://static.asus.com.cn/store/20180918/15075256101102.jpg",
+            "title":"【热销爆款】【不参与优惠活动】  ROG 游戏手机  - 128G 电竞装甲性能强劲游戏手机",
+            "Price":"￥5999",
+            "timer":"限时"
+        },
+        {
+            "img":"https://static.asus.com.cn/store/20180828/23002052529910.jpg",
+            "title":"ROG冰刃 15.6英寸 120Hz 25ms 防炫光雾面屏游戏笔记本电脑  官方标配（Windows 10 Home/i7-7700HQ/GeForce<sup>®</sup>  GTX 1070 搭载Max-Q设计/16G内存/512G/15.6英寸）",
+            "Price":"￥17999",
+            "timer":"限时"
+        },
+        {
+            "img":"https://static.asus.com.cn/store/20180828/23002052529910.jpg",
+            "title":"ROG冰刃 15.6英寸 120Hz 25ms 防炫光雾面屏游戏笔记本电脑  官方标配（Windows 10 Home/i7-7700HQ/GeForce<sup>®</sup>  GTX 1080 搭载Max-Q设计/16G内存/1TB/15.6英寸）",
+            "Price":"￥25999",
+            "timer":""
+        },
+        {
+            "img":"https://static.asus.com.cn/store/20180828/23474549101551.jpg",
+            "title":"【明星爆款】ROG超神2游戏本（Windows 10 home/i7-8750H/GeForce<sup>®</sup> GTX 1080 8G GDDR5X独显/32G内存/2*256GB PCI-E SSD+1TB SSHD/144Hz 雾面屏）",
+            "Price":"￥23999",
+            "timer":"限时"
+        },
+        {
+            "img":"https://static.asus.com.cn/store/20180828/23202456504849.jpg",
+            "title":"GFX72VS-玩家国度游戏本（Windows 10 Home/i7-7820HK/GeForce<sup>®</sup> GTX 1070 8G显存/16GB内存/512GB SSD+1T）",
+            "Price":"￥23999",
+            "timer":""
+        },
+        {
+            "img":"https://static.asus.com.cn/store/20180828/23143357981025.jpg",
+            "title":"【明星爆款】ROG冰刃2 15.6英寸 144Hz 3ms 防炫光雾面屏游戏笔记本电脑（Windows 10 home/ i7-8750H/8GB*2内存/ GeForce<sup>®</sup> GTX 1080 搭载Max-Q设计/512GB M.2 PCI-E/15.6",
+            "Price":"￥24999",
+            "timer":"限时"
+        },
+        {
+            "img":"https://static.asus.com.cn/store/20180828/23220499505610.jpg",
+            "title":"ROG魔霸2 15.6英寸 144Hz 3ms 防炫光窄边框游戏笔记本电脑（Windows 10 home/i7-8750H/Intel UHD Graphics 630+GeForce<sup>®</sup> GTX1060 6G /8G内存/256+1TB",
+            "Price":"￥9999",
+            "timer":"限时"
+        },
+        {
+            "img":"https://static.asus.com.cn/store/20180918/15075256101102.jpg",
+            "title":"【热销爆款】【不参与优惠活动】  ROG 游戏手机  - 128G 电竞装甲性能强劲游戏手机",
+            "Price":"￥5999",
+            "timer":"限时"
+        },
+        {
+            "img":"https://static.asus.com.cn/store/20180828/23002052529910.jpg",
+            "title":"ROG冰刃 15.6英寸 120Hz 25ms 防炫光雾面屏游戏笔记本电脑  官方标配（Windows 10 Home/i7-7700HQ/GeForce<sup>®</sup>  GTX 1070 搭载Max-Q设计/16G内存/512G/15.6英寸）",
+            "Price":"￥17999",
+            "timer":"限时"
+        },
+        {
+            "img":"https://static.asus.com.cn/store/20180828/23002052529910.jpg",
+            "title":"ROG冰刃 15.6英寸 120Hz 25ms 防炫光雾面屏游戏笔记本电脑  官方标配（Windows 10 Home/i7-7700HQ/GeForce<sup>®</sup>  GTX 1080 搭载Max-Q设计/16G内存/1TB/15.6英寸）",
+            "Price":"￥25999",
+            "timer":""
+        },
+        {
+            "img":"https://static.asus.com.cn/store/20180828/23474549101551.jpg",
+            "title":"【明星爆款】ROG超神2游戏本（Windows 10 home/i7-8750H/GeForce<sup>®</sup> GTX 1080 8G GDDR5X独显/32G内存/2*256GB PCI-E SSD+1TB SSHD/144Hz 雾面屏）",
+            "Price":"￥23999",
+            "timer":"限时"
+        },
+        {
+            "img":"https://static.asus.com.cn/store/20180828/23202456504849.jpg",
+            "title":"GFX72VS-玩家国度游戏本（Windows 10 Home/i7-7820HK/GeForce<sup>®</sup> GTX 1070 8G显存/16GB内存/512GB SSD+1T）",
+            "Price":"￥23999",
+            "timer":""
+        },
+        {
+            "img":"https://static.asus.com.cn/store/20180828/23143357981025.jpg",
+            "title":"【明星爆款】ROG冰刃2 15.6英寸 144Hz 3ms 防炫光雾面屏游戏笔记本电脑（Windows 10 home/ i7-8750H/8GB*2内存/ GeForce<sup>®</sup> GTX 1080 搭载Max-Q设计/512GB M.2 PCI-E/15.6",
+            "Price":"￥24999",
+            "timer":"限时"
+        },
+        {
+            "img":"https://static.asus.com.cn/store/20180828/23220499505610.jpg",
+            "title":"ROG魔霸2 15.6英寸 144Hz 3ms 防炫光窄边框游戏笔记本电脑（Windows 10 home/i7-8750H/Intel UHD Graphics 630+GeForce<sup>®</sup> GTX1060 6G /8G内存/256+1TB",
+            "Price":"￥9999",
+            "timer":"限时"
+        },
+        {
+            "img":"https://static.asus.com.cn/store/20180918/15075256101102.jpg",
+            "title":"【热销爆款】【不参与优惠活动】  ROG 游戏手机  - 128G 电竞装甲性能强劲游戏手机",
+            "Price":"￥5999",
+            "timer":"限时"
+        },
+        {
+            "img":"https://static.asus.com.cn/store/20180828/23002052529910.jpg",
+            "title":"ROG冰刃 15.6英寸 120Hz 25ms 防炫光雾面屏游戏笔记本电脑  官方标配（Windows 10 Home/i7-7700HQ/GeForce<sup>®</sup>  GTX 1070 搭载Max-Q设计/16G内存/512G/15.6英寸）",
+            "Price":"￥17999",
+            "timer":"限时"
+        },
+        {
+            "img":"https://static.asus.com.cn/store/20180828/23002052529910.jpg",
+            "title":"ROG冰刃 15.6英寸 120Hz 25ms 防炫光雾面屏游戏笔记本电脑  官方标配（Windows 10 Home/i7-7700HQ/GeForce<sup>®</sup>  GTX 1080 搭载Max-Q设计/16G内存/1TB/15.6英寸）",
+            "Price":"￥25999",
+            "timer":""
+        },
+        {
+            "img":"https://static.asus.com.cn/store/20180828/23474549101551.jpg",
+            "title":"【明星爆款】ROG超神2游戏本（Windows 10 home/i7-8750H/GeForce<sup>®</sup> GTX 1080 8G GDDR5X独显/32G内存/2*256GB PCI-E SSD+1TB SSHD/144Hz 雾面屏）",
+            "Price":"￥23999",
+            "timer":"限时"
+        },
+        {
+            "img":"https://static.asus.com.cn/store/20180828/23202456504849.jpg",
+            "title":"GFX72VS-玩家国度游戏本（Windows 10 Home/i7-7820HK/GeForce<sup>®</sup> GTX 1070 8G显存/16GB内存/512GB SSD+1T）",
+            "Price":"￥23999",
+            "timer":""
+        },
+        {
+            "img":"https://static.asus.com.cn/store/20180828/23143357981025.jpg",
+            "title":"【明星爆款】ROG冰刃2 15.6英寸 144Hz 3ms 防炫光雾面屏游戏笔记本电脑（Windows 10 home/ i7-8750H/8GB*2内存/ GeForce<sup>®</sup> GTX 1080 搭载Max-Q设计/512GB M.2 PCI-E/15.6",
+            "Price":"￥24999",
+            "timer":"限时"
+        },
+        {
+            "img":"https://static.asus.com.cn/store/20180828/23220499505610.jpg",
+            "title":"ROG魔霸2 15.6英寸 144Hz 3ms 防炫光窄边框游戏笔记本电脑（Windows 10 home/i7-8750H/Intel UHD Graphics 630+GeForce<sup>®</sup> GTX1060 6G /8G内存/256+1TB",
+            "Price":"￥9999",
+            "timer":"限时"
+        },
+        {
+            "img":"https://static.asus.com.cn/store/20180918/15075256101102.jpg",
+            "title":"【热销爆款】【不参与优惠活动】  ROG 游戏手机  - 128G 电竞装甲性能强劲游戏手机",
+            "Price":"￥5999",
+            "timer":"限时"
+        },
+        {
+            "img":"https://static.asus.com.cn/store/20180828/23002052529910.jpg",
+            "title":"ROG冰刃 15.6英寸 120Hz 25ms 防炫光雾面屏游戏笔记本电脑  官方标配（Windows 10 Home/i7-7700HQ/GeForce<sup>®</sup>  GTX 1070 搭载Max-Q设计/16G内存/512G/15.6英寸）",
+            "Price":"￥17999",
+            "timer":"限时"
+        },
+        {
+            "img":"https://static.asus.com.cn/store/20180828/23002052529910.jpg",
+            "title":"ROG冰刃 15.6英寸 120Hz 25ms 防炫光雾面屏游戏笔记本电脑  官方标配（Windows 10 Home/i7-7700HQ/GeForce<sup>®</sup>  GTX 1080 搭载Max-Q设计/16G内存/1TB/15.6英寸）",
+            "Price":"￥25999",
+            "timer":""
+        },
+        {
+            "img":"https://static.asus.com.cn/store/20180828/23474549101551.jpg",
+            "title":"【明星爆款】ROG超神2游戏本（Windows 10 home/i7-8750H/GeForce<sup>®</sup> GTX 1080 8G GDDR5X独显/32G内存/2*256GB PCI-E SSD+1TB SSHD/144Hz 雾面屏）",
+            "Price":"￥23999",
+            "timer":"限时"
+        },
+        {
+            "img":"https://static.asus.com.cn/store/20180828/23202456504849.jpg",
+            "title":"GFX72VS-玩家国度游戏本（Windows 10 Home/i7-7820HK/GeForce<sup>®</sup> GTX 1070 8G显存/16GB内存/512GB SSD+1T）",
+            "Price":"￥23999",
+            "timer":""
+        },
+        {
+            "img":"https://static.asus.com.cn/store/20180828/23143357981025.jpg",
+            "title":"【明星爆款】ROG冰刃2 15.6英寸 144Hz 3ms 防炫光雾面屏游戏笔记本电脑（Windows 10 home/ i7-8750H/8GB*2内存/ GeForce<sup>®</sup> GTX 1080 搭载Max-Q设计/512GB M.2 PCI-E/15.6",
+            "Price":"￥24999",
+            "timer":"限时"
+        },
+        {
+            "img":"https://static.asus.com.cn/store/20180828/23220499505610.jpg",
+            "title":"ROG魔霸2 15.6英寸 144Hz 3ms 防炫光窄边框游戏笔记本电脑（Windows 10 home/i7-8750H/Intel UHD Graphics 630+GeForce<sup>®</sup> GTX1060 6G /8G内存/256+1TB",
+            "Price":"￥9999",
+            "timer":"限时"
+        }
+    ]
+}

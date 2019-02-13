@@ -15,7 +15,67 @@ table,td,input{font-size:12px}
 /* 默认链接颜色 */
 a{outline-style:none;color:#333;text-decoration:none}
 
+/* 主页全局样式 */
+body{font-family:'微软雅黑';margin:0 auto;padding:0;background:#FFF;font-size:14px;color:#333;overflow-x: hidden}
+body > div{margin-right:auto;margin-left:auto;} 
+div,form,ul,ol,li,span,p{margin:0;padding:0;border:0;}
+img,a img{border:0;margin:0;padding:0;}
+h1,h2,h3,h4,h5,h6{margin:0;padding:0;font-size:12px;font-weight:normal;}
+ul,ol,li{list-style:none}
+table,td,input{font-size:12px}
+.left{
+    float: left;
+}
+.right{
+    float: right;
+}
+/* 默认链接颜色 */
+a{outline-style:none;color:#333;text-decoration:none}
 
+
+.fixed-left-show{
+    width: 86px;
+    height: 86px;
+    background: #00a8ff;
+    position: fixed;
+    right:0;
+    top:245px;
+    padding: 10px 12px;
+    z-index: 999999;
+    cursor: pointer;
+}
+.fixed-left-hide{
+    display: none;
+    width: 170px;
+    height: 424px;
+    background: #fff;
+    position: fixed;
+    right:0;
+    top:165px;
+    z-index: 999999;
+}
+.fixed-left-hide h4{
+    font-size: 14px;
+    color:#fff;
+    width: 170px;
+    line-height: 40px;
+    text-align: center;
+    background: #00a8ff;
+}
+.fixed-left-hide ul{
+    padding: 4px 9px 10px 10px;
+}
+.fixed-left-hide ul li{
+    padding: 10px 0;
+    text-align: center;
+    border-bottom: 1px solid #ccc;
+}
+.erweima{
+    position: fixed;
+    right:0;
+    top:351px;
+    z-index: 999999;
+}
 /* 页面头部 */
 
 .wrap-top{
@@ -117,8 +177,10 @@ a{outline-style:none;color:#333;text-decoration:none}
     margin: 0 auto;
     background: #fff;
     width: 1226px;
+    
 }
-.wrap-nav .Two-level-menu-wrap ul,ol{
+
+.wrap-nav .Two-level-menu-wrap ul{
     display: flex;
     flex-wrap:wrap; 
     margin:0;
@@ -133,11 +195,17 @@ a{outline-style:none;color:#333;text-decoration:none}
     height: 80px;
     color: #666;
 }
-.Two-level-menu-tow ol li{
-    margin: 20px 17.2px 10px 0;
+.wrap-nav .Two-level-menu-wrap div .fuck{
+    display: flex;
+    padding-bottom: 10px;
 }
-.Two-level-menu-tow ol li:last-child{
-    margin:20px 0 10px 0;
+.wrap-nav .Two-level-menu-wrap div .fuck li{
+    width: 190px;
+    background: #fff;
+    margin:0 17px 75px 0;
+}
+.wrap-nav .Two-level-menu-wrap div .fuck li:last-child{
+    margin:0 0 75px 0;
 }
 .wrap-nav .Two-level-menu-wrap:hover ul li{
     opacity: 0.5;
@@ -145,7 +213,10 @@ a{outline-style:none;color:#333;text-decoration:none}
 .wrap-nav .Two-level-menu-wrap div ul li:hover{
     opacity: 1;
 }
-.Two-level-menu-tow ol li a:hover{
+.Two-level-menu-wrap ul li a:hover{
+    color: #00a8ff;
+}
+.Two-level-menu-wrap ul li a:hover p{
     color: #00a8ff;
 }
 
@@ -241,7 +312,7 @@ a{outline-style:none;color:#333;text-decoration:none}
 .wrap-nav .nav .search .lists li:hover{
     background: #ccc;
 }
-
+/* 
 /* 页面导航栏 end */
 
 
@@ -352,8 +423,71 @@ a{outline-style:none;color:#333;text-decoration:none}
     background: #00a8ff
 }
 
-/* 轮播图及二级菜单 end */
 
+
+/* 侧边栏二级菜单 */
+.list-Two-level-menu{
+    display: none;
+    background: #fff;
+    width: 808px;
+    height: 500px;
+    position: absolute;
+    top:0;
+    left:581px;
+    z-index: 9999;
+    /* display: none; */
+}
+.list-Two-level-menu ul{
+    display: none;
+    width: 808px;
+    height: 500px;
+}
+.list-Two-level-menu ul dl dt a img{
+    width: 40px;
+}
+.list-Two-level-menu dl{
+    border-bottom: 1px solid #ccc;
+    display: flex;
+    line-height: 40px;
+    margin: 0;
+    width: 460px;
+    padding: 10px 0;
+}
+.list-Two-level-menu dl dt{
+    display: flex;
+    height: 40px;
+}
+.list-Two-level-menu dl dt a{
+    display: inline-block;
+    width: 150px;
+}
+.list-Two-level-menu dl dt a img{
+    float: left;
+    margin: 0 10px;
+}
+.list-Two-level-menu dl dt a span{
+    float: left;
+}
+.list-Two-level-menu dl dd{
+    display: flex;
+    flex-wrap: wrap;
+    margin:0 5px;
+}
+.list-Two-level-menu dl dd a{
+    height: 40px;
+    margin-left:20px; 
+}
+.list-Two-level-menu dl dd a:hover{
+    color: #00a8ff;
+}
+.list-Two-level-menu p{
+    position: absolute;
+    right:0;
+    top:0;
+}
+/* 侧边栏二级菜单 end */
+
+/* 轮播图及二级菜单 end */
 
 
 
@@ -487,12 +621,27 @@ a{outline-style:none;color:#333;text-decoration:none}
     background: #00a8ff;
     margin: 28px 0 50px 0;
 }
-
-
 /* 主体内容区 */
-
 .container{
     width: 100%;
     height: 1000px;
     background: #f2f2f2;
+    margin-bottom:28px;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

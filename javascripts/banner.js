@@ -42,6 +42,7 @@ $('.swiper-container')
 
 var mySwiper_list = new Swiper ('.list-wrap', {
     // effect : 'fade',
+    // loop: true,
     speed:0,
     slidesPerView: 5,
     slidesPerGroup : 5,
@@ -50,5 +51,5 @@ var mySwiper_list = new Swiper ('.list-wrap', {
     navigation: {
         nextEl: '.swiper-button-right',
         prevEl: '.swiper-button-left',
-    },
+    }
 })       
