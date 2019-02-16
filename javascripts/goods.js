@@ -19,7 +19,10 @@ $.ajax({
 
 
 function render(res){
-    
+    console.log(res)
+    // 把数据进行本地存储
+    localStorage.setItem("res",JSON.stringify(res.lis));
+
     var lis = res.lis;
     $(".pagination").pagination({
         // list.lenght 表示当前数据总量;
@@ -30,16 +33,16 @@ function render(res){
         callback : page,
         mode	: "fixed",
         count	: 9,
-        keepShowPN : false
+        keepShowPN : false,
     });
     function page(api){
         // 根据页码选择要渲染的数组中的项;
         // 选中开头和结尾;
         var min = (api.getCurrent() - 1) * showNum;
         var max = api.getCurrent() * showNum
-
+        var _index =null;
         // 让模板引擎进行数据渲染;
-        var html = template("item",{ lis : lis.slice( min,max ) })
+        var html = template("item",{ lis : lis.slice( min,max )})
         // 把渲染结果放在 item-wrapper之中;
         $(".list-wrap ul").html(html);
         for(var i=4;i<(res.lis.length);i++){
@@ -47,6 +50,16 @@ function render(res){
                 $(".list-wrap ul li").eq(i-1).css("margin-right","0")
             }
         }  
+        $(".list-wrap ul li>a").on("click",function(){
+            
+            _index = $(this).parent().index()
+         
+                _index = $(this).parent().index() + showNum * ($(".pagination span").text() -1 )
+                
+            
+            // 跨页面传值
+            location.href = "../page/Detail.html#"+_index
+        })
     }
     page({
         getCurrent : function(){
@@ -59,4 +72,7 @@ function render(res){
         }
     }  
     $(".content-wrap span")[0].innerHTML = lis.length;
+    
 }
+
+

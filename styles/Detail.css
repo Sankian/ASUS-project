@@ -2,10 +2,19 @@
 body{font-family:'微软雅黑';margin:0 auto;padding:0;font-size:14px;color:#333;overflow-x: hidden}
 body > div{margin-right:auto;margin-left:auto;} 
 div,form,ul,ol,li,span,p{margin:0;padding:0;border:0;}
-img,a img{border:0;margin:0;padding:0;}
+img,a img{border:0;margin:0;padding:0;vertical-align: middle;}
 h1,h2,h3,h4,h5,h6{margin:0;padding:0;font-size:12px;font-weight:normal;}
 ul,ol,li{list-style:none}
 table,td,input{font-size:12px}
+div::before{
+    content: "";
+    clear: both;
+    display: block;
+    height: 0;
+    overflow: hidden;
+    visibility: hidden;
+}
+
 .left{
     float: left;
 }
@@ -15,10 +24,325 @@ table,td,input{font-size:12px}
 /* 默认链接颜色 */
 a{outline-style:none;color:#333;text-decoration:none}
 
+body>h3{
+    margin:0 auto;
+    line-height: 90px;
+    width: 1226px;
+    margin: 0 auto;
+    font-size: 14px;
+    color: #777;
+}
+h3 a:hover{
+    color:#0af;
+}
 
 .goods-content-wrap{
     width: 100%;
     min-height: 946px;
     margin: 0 auto;
     background: #fff;
+}
+.goods-content-page{
+    width: 1226px;
+    background: #fff;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.product-side{
+    position: relative;
+}
+.goods-img{
+    position: relative;
+}
+.goods-img .mo{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top:0;
+    left:0;
+    z-index: 10;
+}
+.Magnifier{
+    position: absolute;
+    top:0;
+    left:0;
+    background: #0af;
+    opacity: .3;
+    width: 250px;
+    height: 190px;
+}
+.Magnifier-Display-wrap{
+    box-sizing: border-box;
+    width: 400px;
+    height: 304px;
+    position: absolute;
+    top:0;
+    left:510px;
+    border: 1px solid #ccc;
+    overflow: hidden;
+    background: #f10;
+}
+.Magnifier-Display{
+    position: absolute;
+}
+.goods-img img{
+    width: 100%;
+}
+.goods-img-list-wrap{
+    width: 500px;
+    overflow: hidden;
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-around;
+}
+.goods-img-list-wrap>a{
+    text-align: center;
+    width: 50px;
+    font:600 20px/88px "宋体";
+}
+.goods-img-list{
+    width: 384px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.goods-img-list ul{
+    overflow: hidden;
+}
+.goods-img-list ul li{
+    float: left;
+    margin:0 4px;
+    border-bottom: 1px solid #fff;
+    padding: 5px;
+}
+.goods-img-list ul .current-img{
+    border-bottom: 1px solid #0af;
+}
+.goods-img-list ul li img{
+    width: 88px;
+}
+.goods-img-list ul li:hover{
+    border-bottom: 1px solid #0af;
+}
+
+.Collection-wrap{
+    text-align: right;
+    margin-top:15px;
+}
+.Collection-wrap a{
+    margin-right: 10px;
+}
+
+.stick-comment{
+    margin:40px 0 100px 0;
+    padding-left:20px;
+    background: #f2f2f2; 
+    color: #0af;
+    font-size: 60px;
+}
+.stick-comment div{
+    line-height: 81px;
+    height: 81px;
+}
+.stick-comment b{
+    font-size: 40px;
+    font-weight: normal;
+}
+.stick-comment span{
+    font-size: 20px;
+    color: #666;
+}
+
+/* 商品介绍区 */
+.product-main .goods-title h2{
+    font-size: 24px;
+    line-height: 36px;
+}
+.product-main .goods-title{
+    padding-bottom:10px; 
+}
+.product-main .goods-title a{
+    font-size: 18px;
+    color: #f10;
+    line-height: 36px;
+    
+}
+.product-information .goods-p ._timer{
+    width: 100%;
+    line-height: 30px;
+    color: #fff;
+    font-weight: 800;
+    background: #d52151;
+    padding: 0 15px;
+}
+.product-information .goods-p ._timer p{
+    font-size: 16px;
+    background: url(https://static.asus.com.cn/static/store/images/time_bg.png) no-repeat center left;
+    text-indent: 30px;
+}
+.product-information .goods-p>div{
+    background: #f5f5f5;
+    overflow: hidden;
+}
+.product-wrap{
+    padding: 15px;
+}
+.goods-p .label{
+    font-size: 20px;
+    color: #666;
+    line-height: 40px;
+}
+.detail{
+    line-height: 40px;
+}
+.product-concerns{
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 10px;
+    margin-bottom:5px; 
+}
+.detail .price{
+    font-size: 30px;
+    text-decoration:none;
+    color: #f10;
+}
+.product-wrap .active-label,.product-wrap .active-label .label{
+    line-height: 36px;
+}
+.product-wrap .active-label ul{
+    color:#666;
+    float: left;
+}
+.product-wrap .active-label span{
+    padding: 0 4px;
+    background: #f10;
+    color: #fff;
+    margin-left: 20px;
+    border-radius: 5px;
+}
+
+
+/* 商品购买区 */
+.goods-purchase{
+    margin-top:10px; 
+}
+.goods-purchase p{
+    line-height: 36px;
+    font-size: 18px;
+}
+.goods-purchase .goods-number{
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+.goods-purchase .goods-number a{
+    display:inline-block;
+    width: 36px;
+    border: 1px solid #aaa;
+    text-align: center;
+    font: 18px/36px simsun,serif;
+}
+.goods-purchase .goods-number .reduce{
+    border-right: 0;
+    border-radius: 5px 0 0 5px;
+}
+.goods-purchase .goods-number .add{
+    border-left: 0;
+    border-radius: 0 5px  5px 0;
+}
+.goods-purchase .goods-number input{
+    float: left;
+    line-height: 34px;
+    width: 60px;
+    border: 1px solid #aaa;
+    font-size:16px;
+    outline: none;
+}
+.service-support a:hover{
+    color: #0af;
+}
+.service-support ul li{
+    margin-bottom:10px;
+}
+.service-support ul li span{
+    display: inline-block;
+    text-indent: 30px;
+    margin-right: 10px;
+}
+.btns{
+    margin: 50px 0 120px;
+}
+.btns button{
+    width: 238px;
+    height: 40px;
+    line-height: 40px;
+    border:1px solid #0af;
+    background: #fff;
+    font-size: 18px;
+    padding: 0;
+    border-radius: 5px;
+    margin-right:15px; 
+    outline: none;
+    cursor: pointer;
+}
+.btns .purchase-btn{
+    background: #0af;
+    color: #fff;
+}
+.btns .cart-btn{
+    color: #0af;
+}
+
+
+
+
+
+/* 商品详细参数展示区 */
+.goods-details{
+    min-height: 500px;
+    background: #f2f2f2;
+}
+.goods-details-nav-wrap{
+    background:#fff;
+}
+.goods-details-nav-wrap nav{
+    width: 1226px;
+    height: 70px;
+    line-height: 70px;
+    padding-bottom: 10px;
+    margin: 0 auto;
+    overflow: hidden;
+    font-size: 18px;
+}
+.goods-details-nav-wrap nav ul{
+    border-top:1px solid #ccc; 
+    border-bottom:1px solid #ccc; 
+    height: 70px;
+}
+.goods-details-nav-wrap nav ul::before{
+    content: "";
+    clear: both;
+    display: block;
+    height: 0;
+    overflow: hidden;
+    visibility: hidden;
+}
+.goods-details-nav-wrap nav li{
+    float: left;
+    padding: 0 30px;
+    cursor: pointer;
+    height: 70px;
+    color:#666;
+}
+.goods-details-nav-wrap nav .details-active{
+    border-bottom: 1px solid #0af;
+    color: #0af;
+}
+
+/* 商品参数详情区 */
+.detailed-show{
+    width: 1226px;
+    margin: 0 auto;
+    padding: 20px 0 200px;
+}
+
+.detailed-show img{
+    width: 100%;
 }

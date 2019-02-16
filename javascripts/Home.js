@@ -137,13 +137,20 @@ $(".fixed-left-hide").on({
     }
 })
 
-// 爆款清单json 数据加载;
+// 爆款清单 json 数据加载;
+
 $.ajax({
-    url:"../json/jia.json",
-    type : "get",
-    success : function(res){
-        // console.log(res)
-        var html="";
+    url:"json/jia.json",
+    type:"get",
+    dataType:"json",
+}).then(render)
+
+
+console.log(document.cookie)
+
+function render(res){
+    // console.log(res)
+    var html="";
         for(var i=0;i<res.list.length;i++){
             html+=`<li class="swiper-slide" style="width: 244.8px;">
                 <div>
@@ -158,5 +165,4 @@ $.ajax({
             </li>`
         }
         $(".list-wrap ul")[0].innerHTML=html
-    }
-})
+}
